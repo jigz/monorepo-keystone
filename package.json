@@ -1,0 +1,12 @@
+{
+  "name": "monorepo-keystone",
+  "version": "1.0.0",
+  "description": "just another monorepo",
+  "repository": "git@github.com:jigz/monorepo-keystone.git",
+  "author": "Jigz <jigzpalillo@gmail.com>",
+  "private": true,
+  "workspaces": [
+    "projects/packages/*",
+    "projects/websites/*"
+  ]
+}
